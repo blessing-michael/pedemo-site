@@ -1,11 +1,12 @@
 @import 'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap';
 :root {
     --base-color: #3C2FC0;
-    --medium-gray: #878898;
-    --dark-gray: #236E45;
+    --medium-gray: #959887;
+    --dark-gray: #242E45;
     --light-red: #F2F1FC;
     --alt-font: 'Plus Jakarta Sans', sans-serif;
     --primary-font: 'Plus Jakarta Sans', sans-serif
+    
 }
 
 body {
@@ -40,7 +41,7 @@ strong {
 }
 
 header .navbar-brand img {
-    max-height: 28px
+    max-height: 58px
 }
 
 .header-icon .icon>a {
@@ -462,6 +463,7 @@ footer ul li {
     }
     footer .elements-social.social-icon-style-02 li {
         margin: 0 15px 0 0
+        
     }
     footer .elements-social.social-icon-style-02 li:first-child {
         margin-left: 0
@@ -469,25 +471,32 @@ footer ul li {
 }
 
 .direct-img-container{
-    background-color: #236E45;
+    
     display: flex;
     justify-content: space-between;
     text-align: center;
+    margin: 0 7rem;
+   
+    
 }
-.direct-img-container h3{
-    text-align: center;
-    color: whitesmoke;
+.img-info-fordirector h5{
+    text-align: left;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #242E45;
+   
+    
     margin: 2rem 0;
 }
 .direct-img-container p{
     
-    color: whitesmoke;
-    margin: 0 4rem;
+    color: darkslategrey;
+   
     text-align: center;
 }
 .direct-img-container img{
     
-    max-width: 50%;
+    max-width: 40%;
 }
 
 .director-image{
@@ -497,7 +506,35 @@ footer ul li {
  
     align-items: center;
     text-align: center;
+    text-align: left;
+    color: #236E45;
+    margin-left: 40px;
+    
+  
+ 
+   
+}
+.img-info-fordirector p{
+    text-align: left;
+  
+ 
+  
+  
+ 
+   
+}
+.director-image{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.privatization-color{
+    color: #242E45;
+}
+.first-list{
+    color: #242E45;
 }
 .startednow-btn{
     background-color: #c74e45;
@@ -506,3 +543,41 @@ background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-2
 background: linear-gradient(to right, #b38c68, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+
+.background-arrow{
+    color: #236E45;
+    
+}
+
+.completed-blockk{
+    background-color: #1f4037;
+    background: linear-gradient(to right, #b38c68, #1f4037);
+}
+.reform-sentence{
+    color: whitesmoke;
+}
+.flexible{
+    background-color: #05be15;
+}
+.about-us{
+    background-color: #002B20;
+}
+
+
+.footer-home{
+    background-color: #002B20;
+
+}
+.footer-home p{
+    color: whitesmoke;
+}
+
+
+footer .elements-social.social-icon-style-02 li a {
+    color: whitesmoke;
+    
+}
+
+/* .footer-home li{
+    color: whitesmoke;
+} */
